@@ -6,7 +6,6 @@ mutation MicrosoftOAuth($code: String!) {
       username
       provider
       avatarUrl
-      reputation
       emailPublic
     }
   }
