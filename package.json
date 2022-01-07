@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "concurrently \"cd web && yarn dev\" \"cd api && yarn dev\""
+  },
+  "license": "GPL-3.0-or-later"
+}
