@@ -1,4 +1,4 @@
-import { Field, Int, ObjectType } from "type-graphql";
+import { Field, ObjectType } from "type-graphql";
 import { Entity, PrimaryGeneratedColumn, Column, BaseEntity } from "typeorm";
 
 type ProviderType = "Google" | "Discord" | "Microsoft";
@@ -25,10 +25,6 @@ export class User extends BaseEntity {
   @Field(() => String)
   @Column("text")
   avatarUrl: string;
-
-  @Field(() => Int)
-  @Column({ type: "integer", default: 100 })
-  reputation: number;
 
   @Column({ type: "text", nullable: false })
   externalId: string;
