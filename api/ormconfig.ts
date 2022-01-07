@@ -24,7 +24,7 @@ module.exports = {
         port: 5432,
         username: process.env.POSTGRES_USERNAME,
         password: process.env.POSTGRES_PASSWORD,
-        database: "yourDBName",
+        database: "example-db",
       }),
   entities: [`${basedir}/entity/**/*.${fileType}`],
   migrations: [`${basedir}/migrations/**/*.${fileType}`],
