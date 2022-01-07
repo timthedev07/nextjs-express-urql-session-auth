@@ -3,7 +3,7 @@ import { FC, SVGProps } from "react";
 export const GoogleIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
-      enable-background="new 0 0 128 128"
+      enableBackground="new 0 0 128 128"
       id="Social_Icons"
       version="1.1"
       viewBox="0 0 128 128"
