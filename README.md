@@ -17,3 +17,11 @@ Backend:
 - Apollo Server Express
 - TypeORM
 - TypeGraphQL
+
+## Authentication
+
+This project doesn't implement the username-password authentication logic, instead it uses the following auth providers:
+
+- Microsoft
+- Google
+- Discord
